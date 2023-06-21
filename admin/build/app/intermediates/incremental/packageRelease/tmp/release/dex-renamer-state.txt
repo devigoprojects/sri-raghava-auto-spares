@@ -1,0 +1,4 @@
+#Thu Jun 15 13:04:55 IST 2023
+base.0=/home/nk/Desktop/manage_store/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
