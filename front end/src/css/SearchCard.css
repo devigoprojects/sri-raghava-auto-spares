@@ -13,13 +13,13 @@
 
 .card  h1 {
     color: white;
-    text-shadow: 5px 4px 4px black;  
+    /* text-shadow: 5px 4px 4px black;   */
     text-align: center;
     font-size: 1.6em;
 }
 
 .card .subtext { 
-    text-shadow: 5px 4px 3px black;  
+    /* text-shadow: 5px 4px 3px black;   */
     font-size: 1.1em;
     color:white;
     text-align: center;
