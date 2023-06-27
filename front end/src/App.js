@@ -1,14 +1,17 @@
+import Collections from "./components/Collections";
+import Header from "./components/Header";
+import SearchCard from "./components/SearchCard";
+import "./css/App.css";
 
 
-import './App.css';
-
-function App() {
-  return (
-   <>
-    <h1>skskssks</h1>
-
-    </>
-  );
+function App(){
+    return (
+       <div className="App">
+        <Header/>
+        <SearchCard/>
+        <Collections/>
+       </div>
+    )
 }
 
 export default App;
