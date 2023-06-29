@@ -12,6 +12,7 @@ input{
     border: solid #444444 1px;
     color: #444444;
     background-color: #ffffff8e;
+    box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.889);
    
     }
 
