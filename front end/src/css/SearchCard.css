@@ -1,13 +1,13 @@
 
 
 .card {
-    padding: 20px 0px 80px 20px;
+    padding: 20px 0px 30px 20px;
  
-    background-image:linear-gradient(to top, rgba(0, 0, 0, 0) ,  rgba(197, 191, 191, 0)), url('https://media.istockphoto.com/id/1041149200/photo/various-car-parts-and-accessories-on-white-background-3d-illustration.jpg?s=170667a&w=0&k=20&c=18Du5kC0uiKSBnsJ2UEDBmptMIjNVn4Y3634iDJ1B7A=');
+    background-image:linear-gradient(to top, rgba(0, 0, 0, 0) ,  rgba(197, 191, 191, 0)), url('https://as2.ftcdn.net/v2/jpg/01/63/50/03/1000_F_163500390_JNsdNPapSVGnwjPMsQ6bLs4S8Uc6lADu.jpg');
     background-repeat: no-repeat;
-  background-size: fill;
+  background-size: cover;
   background-color: white;
-  background-position: center;
+  background-position: left;
  
 }
 
