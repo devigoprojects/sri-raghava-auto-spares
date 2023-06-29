@@ -3,27 +3,21 @@
 .card {
     padding: 20px;
    
-    background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.4) ,  rgba(0, 0, 0, 0.4)), url('https://2.bp.blogspot.com/-lRmmMSBYqkk/W7igvY-SUlI/AAAAAAABbNA/6woy5Chfuhk2MVta5HtucPoKtZyIzX84ACK4BGAYYCw/s1600/MB_SprinterParts_1-800x500_c.jpg');
+    /* background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.4) ,  rgba(0, 0, 0, 0.4)), url('https://2.bp.blogspot.com/-lRmmMSBYqkk/W7igvY-SUlI/AAAAAAABbNA/6woy5Chfuhk2MVta5HtucPoKtZyIzX84ACK4BGAYYCw/s1600/MB_SprinterParts_1-800x500_c.jpg'); */
     background-repeat: no-repeat;
   background-size: cover;
-  background-color: #323a3b;
+  background-color: white;
   background-position: center;
  
 }
 
-.card  h1 {
-    color: white;
-    text-shadow: 5px 4px 4px black;  
+.card h1 {
+    color: #0D5C63;
     text-align: center;
     font-size: 1.6em;
+    padding: 10px;
 }
 
-.card .subtext { 
-    text-shadow: 5px 4px 3px black;  
-    font-size: 1.1em;
-    color:white;
-    text-align: center;
-}
 
 .dropdown {
     -webkit-appearance: none;

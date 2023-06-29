@@ -1,0 +1,29 @@
+input[type=search]{
+    width: 90%;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: absolute;
+    z-index: 0;
+    font-size: 1.3em;
+    border-radius: 40px;
+    outline: none;
+    padding: 10px;
+    border: solid rgb(187, 187, 187) 2px;
+    background-color: white;
+   
+    }
+
+.Hero .search-icon  {
+    width: 30px;
+    object-fit: contain;
+    position: absolute;
+    right: 30px;
+    top: -60px;
+}
+
+.Hero img {
+    height: 50vh;
+    object-fit: cover;
+    width: 100%;
+} 

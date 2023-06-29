@@ -5,8 +5,7 @@ function SearchCard(){
     return(
         <div className="card">
             <h1>Find Parts For Your Vehicle</h1>
-            <p className="subtext">Over hundreds of bikes and thousands of parts</p>
-            
+           
             <div className="drop-downs">
                 {/* Brand */}
             <select className="dropdown" name="cars" id="cars">
