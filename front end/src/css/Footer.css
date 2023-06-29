@@ -1,7 +1,32 @@
 .Footer {
     background-color: #0D5C63;
-    height: 30vh;
+    height: auto;
     width: 100%;
     position: relative;
     bottom: 0;
+    padding-top: 10px;
+}
+
+.Footer h4{
+  
+    color: white;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.Footer hr{
+    margin-top: 10px;
+}
+
+.Footer p{
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+}
+
+
+
+.Footer a{
+    font-weight: bold;
+    color: #020d72;
 }

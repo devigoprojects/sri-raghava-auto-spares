@@ -1,0 +1,14 @@
+.whatsapp-cta{
+   background-color: #25D366;
+   height: 60px;
+   width: 60px;
+   border-radius: 40px;
+   padding-top: 12px;
+   text-align: center;
+   z-index: 1;
+   right: 10px;
+   bottom: 10px;
+   position: fixed;
+   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
+
+}

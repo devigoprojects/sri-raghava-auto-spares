@@ -1,4 +1,4 @@
-input[type=search]{
+input{
     width: 90%;
     margin-top: 10px;
     margin-left: 20px;
@@ -9,17 +9,21 @@ input[type=search]{
     border-radius: 40px;
     outline: none;
     padding: 10px;
-    border: solid rgb(187, 187, 187) 2px;
-    background-color: white;
+    border: solid #444444 1px;
+    color: #444444;
+    background-color: #ffffff8e;
    
     }
 
+input::placeholder{
+    color: #444444;
+    padding-left: 10px;
+}
+
 .Hero .search-icon  {
-    width: 30px;
-    object-fit: contain;
+    right: 10%;
+    padding-top: 20px;
     position: absolute;
-    right: 30px;
-    top: -60px;
 }
 
 .Hero img {

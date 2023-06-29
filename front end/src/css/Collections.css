@@ -32,7 +32,8 @@
 }
 
 .collection-grid img{
-    height: 70px;
+    max-width: 30vw;
+    max-height: 80px;
     object-fit: cover;
 }
 
