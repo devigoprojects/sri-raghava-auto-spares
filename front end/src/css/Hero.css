@@ -1,34 +1,35 @@
-input{
+.Hero input{
     width: 90%;
     margin-top: 10px;
     margin-left: 20px;
     margin-right: 20px;
     position: absolute;
-    z-index: 0;
+    z-index: 2;
     font-size: 1.3em;
     border-radius: 40px;
     outline: none;
     padding: 10px;
     border: solid #444444 1px;
     color: #444444;
-    background-color: #ffffff8e;
+    background-color: #ffff;
     box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.889);
    
     }
 
-input::placeholder{
+.Hero input::placeholder{
     color: #444444;
     padding-left: 10px;
 }
 
 .Hero .search-icon  {
+    z-index: 2;
     right: 10%;
     padding-top: 20px;
     position: absolute;
 }
 
 .Hero img {
-    height: 50vh;
+    height: 40vh;
     object-fit: cover;
     width: 100%;
 } 

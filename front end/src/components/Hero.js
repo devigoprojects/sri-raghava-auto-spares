@@ -5,6 +5,7 @@ import Carousel from 'react-material-ui-carousel';
 import { Paper} from '@mui/material';
 
 
+
 const items = [
     {
       image: 'https://www.toyotazambia.co.zm/wp-content/uploads/2023/02/special-spare-parts-offer-890-600px-1.png',
@@ -23,6 +24,7 @@ const items = [
   function MyCarousel() {
     return (
       <Carousel animation="slide"
+      
       indicatorContainerProps={{
         style: {
            zIndex:1,
