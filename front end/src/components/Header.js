@@ -7,10 +7,13 @@ function Header(){
     return(
         <div className="Header">
          <div className="title">
-         <img className="logo" src={require('../assets/logo.png')} alt="sri raghava"/> 
+         <Link to="/"><img className="logo" src={require('../assets/logo.png')} alt="sri raghava"/></Link>
          </div>
-         <Link to="/cart"><i class="fa-sharp fa-light fa-cart-shopping" ></i></Link>
-         <span className="search-icon"><BsCart2 size={24} color="#0D5C63"/></span>
+         <Link to="/cart">
+            <div className="cart-icon">
+            <BsCart2 size={24} color="#0D5C63"/>
+            </div>
+         </Link>
         </div>
     )
 }
