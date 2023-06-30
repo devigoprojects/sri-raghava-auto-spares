@@ -21,6 +21,8 @@
     padding-left: 10px;
 }
 
+
+
 .Hero .search-icon  {
     z-index: 2;
     right: 10%;
@@ -29,7 +31,11 @@
 }
 
 .Hero img {
-    height: 40vh;
-    object-fit: cover;
     width: 100%;
+    overflow: hidden;
+    height: 50vh;
+    object-fit:fill;
+    object-position: center;
+    width: 100%;
+   
 } 

@@ -3,14 +3,15 @@ import SearchCard from "./SearchCard";
 import Collections from "./Collections";
 import Header from "./Header";
 import Footer from "./Footer";
+import Layout from "./Layout";
 
 function SpareParts(){
     return (
         <div>
-            <Header/>
-             <SearchCard/>
+           <Layout>
+           <SearchCard/>
              <Collections/>
-             <Footer/>
+           </Layout>
         </div>
     )
 }
