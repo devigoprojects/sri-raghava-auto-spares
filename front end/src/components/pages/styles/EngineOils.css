@@ -1,0 +1,117 @@
+
+.engine-oils{
+ display: grid;
+ grid-template-columns: repeat(2,1fr);
+}
+
+
+.ribbon{
+    line-height: .8em;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: -2px;
+    display: block;
+    background:linear-gradient(to bottom,#999999 0%,#cccccc 100%);
+    color: white;
+    margin: 1em .5em 0;
+    float: left;
+    left: 25vw;
+    width: 4rem;
+    height: 3rem;
+    text-shadow: 1px 1px 5px rgba(0,0,0,.15);
+    padding-top: 1rem;
+    position: absolute;
+    -webkit-filter:drop-shadow(0 .5rem .3em rgba(0,0,0,.5));
+    transform: translate3d(0,0,0);
+}
+
+.ribbon::after{
+    content: '';
+    width: 0;
+    height: 0;
+    border-right: 2.1rem solid transparent;
+    border-top: 0rem solid #cccccc;
+    border-left: 2.1rem solid transparent;
+    position: absolute;
+    top: 2.9rem;
+    left: 0;
+    z-index: 0
+
+}
+
+.ribbon-red{
+    background:linear-gradient(to bottom,#D3362D 0%,#E57368 100%);
+}
+
+.ribbon-red::after{
+    border-top: 1.5rem solid #E57368;
+    background:linear-gradient(to bottom,#D3362D 0%,#E57368 100%);
+}
+
+.ribbon-red{
+    background: linear-gradient(to bottom,);
+}
+
+.ribbon-green{
+    background:linear-gradient(to bottom,#5f9654 0%,#65b045 100%);
+}
+
+.ribbon-green::after{
+    border-top: 1.5rem solid #65b045;
+    background:linear-gradient(to bottom,#65b045 0%,#65b045 100%);
+}
+
+.ribbon-green{
+    background: linear-gradient(to bottom,);
+}
+
+
+.product-card{
+    justify-content: center;
+    max-width: 45vw;
+    margin: 20px;
+ 
+}
+
+
+.product-card .product-name {
+   font-size: 1.2em;
+}
+
+.product-card img{
+    width: 80%;
+}
+
+
+.product-card span{
+    margin-top: 10px;
+    display: flex;
+    gap: 20px;
+    justify-content: start;
+}
+
+.mrp-price{
+     text-decoration: line-through;
+     color: rgba(0,0,0,0.6);
+     font-size: 1.5em;
+     text-decoration-color: rgba(0, 0, 0, 0.5);
+}
+
+.selling-price{
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 1.5em;
+    font-weight:550;
+   
+}
+
+.add-to-cart-btn{
+    margin-top: 20px;
+    color: white;
+    border-radius: 4px;
+    background-color: #0D5C63;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.3em;
+}

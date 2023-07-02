@@ -5,7 +5,7 @@ import '../css/Collections.css';
 function Collections(){
     return(
         <div className="collections">
-           <h2 >Shop By Brand</h2>
+           <h2>Shop By Brand</h2>
            <div>
             <div className="collection-grid">
                 <div className="collection-card">

@@ -34,7 +34,7 @@
     width: 100%;
     overflow: hidden;
     height: 50vh;
-    object-fit:fill;
+    object-fit:cover;
     object-position: center;
     width: 100%;
    

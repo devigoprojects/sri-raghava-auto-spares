@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.228a5f44.css",
-    "main.js": "/static/js/main.37255086.js",
+    "main.css": "/static/css/main.d115f4b6.css",
+    "main.js": "/static/js/main.01754a44.js",
     "static/media/tyres_bg.png": "/static/media/tyres_bg.ccec4babf744f6c90d13.png",
     "static/media/spares_bg.png": "/static/media/spares_bg.37cd31e5b6a49cc48c96.png",
     "static/media/oils_bg.png": "/static/media/oils_bg.540b9fc3bacf7c0da21a.png",
     "static/media/logo.png": "/static/media/logo.4bff1f3a8c491a0e5eca.png",
     "index.html": "/index.html",
-    "main.228a5f44.css.map": "/static/css/main.228a5f44.css.map",
-    "main.37255086.js.map": "/static/js/main.37255086.js.map"
+    "main.d115f4b6.css.map": "/static/css/main.d115f4b6.css.map",
+    "main.01754a44.js.map": "/static/js/main.01754a44.js.map"
   },
   "entrypoints": [
-    "static/css/main.228a5f44.css",
-    "static/js/main.37255086.js"
+    "static/css/main.d115f4b6.css",
+    "static/js/main.01754a44.js"
   ]
 }

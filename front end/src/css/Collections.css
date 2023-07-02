@@ -15,6 +15,7 @@
 
 
 .collection-grid{
+    
     justify-content: center;
     display: grid;
     grid-template-columns:auto auto;
@@ -26,12 +27,13 @@
     justify-content: center;
     align-items: center;
     margin-top: 10px;
-    padding: 20px 20px 0px 20px;
-    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.161); */
+    padding: 30px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
     text-align: center;
 }
 
 .collection-grid img{
+    
     max-width: 30vw;
     max-height: 80px;
     object-fit: cover;
