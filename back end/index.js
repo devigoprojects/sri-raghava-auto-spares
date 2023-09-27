@@ -15,6 +15,7 @@ const app = express();
 const brandsRoute = require('./routes/bike/brand');
 const bikesRoute = require('./routes/bike/bikes');
 const engineOilRoute = require('./routes/engine_oils');
+const collectionRoute = require('./routes/collections');
 
 // middlewares
 app.use(cors());
@@ -23,6 +24,7 @@ app.use(express.json());
 app.use('/brands',brandsRoute);
 app.use('/bikes',bikesRoute)
 app.use('/oils',engineOilRoute);
+app.use('/collections',collectionRoute);
 
 
 // uploadFile().then(data=>{
